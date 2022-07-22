@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <RelativeLayout
+        android:id="@+id/relativelayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="70sp"
+            android:layout_height="60sp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/img" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/img"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:text="Your personal ATM on your phone"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/display_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/img" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15sp"
+        android:paddingRight="15sp"
+        android:paddingTop="45sp">
+
+
+        <Button
+            android:layout_width="0sp"
+            android:layout_height="150sp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:text="Change your pin"
+            android:id="@+id/change_pin"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="0sp"
+            android:layout_height="150sp"
+            android:id="@+id/check_balance"
+            android:layout_marginLeft="10sp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:text="Check Balance"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15sp"
+        android:paddingRight="15sp">
+
+        <Button
+            android:layout_width="0sp"
+            android:layout_height="150sp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:text="Withdraw your cash"
+            android:id="@+id/cash_withdraw"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="0sp"
+            android:layout_height="150sp"
+            android:id="@+id/view_details"
+            android:layout_marginLeft="10sp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:text="View Account Details"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15sp"
+        android:paddingRight="15sp">
+
+        <Button
+            android:layout_width="0sp"
+            android:layout_height="150sp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:text="Deposit Cash"
+            android:id="@+id/cash_deposit"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="0sp"
+            android:layout_height="150sp"
+            android:id="@+id/loan"
+            android:layout_marginLeft="10sp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:text="Loan"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigation"
+        app:menu="@menu/menu"
+        >
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+
+</LinearLayout>

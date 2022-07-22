@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ATM</string>
+
+    <string name="hello">Hello there, Welcome Back</string>
+    <string name="signin">Sign in to continue</string>
+    <string name="phnno">Enter your Phone number</string>
+    <string name="pwd">Password</string>
+    <string name="fpwd">Forgot Password?</string>
+    <string name="login">Signin</string>
+    <string name="newu">New User?Register Here</string>
+    <string name="signup">Signup</string>
+    <string name="Comfirmpass">Confirm Password</string>
+    <string name="todo">TODO</string>
+    <string name="newuser">New User? Register Here</string>
+    <string name="address">Your Current Address</string>
+    <string name="getl">Get Location</string>
+    <string name="Name">Full Name</string>
+    <string name="email">Enter your Email-id</string>
+
+    <string name="news">RBI announces second tranche of liquidity boost; cuts reverse repo by 25 basis points, Rs 50,000 crore TLTRO 2.0 for NBFCs. The Governor announced a second tranche of liquidity for NBFCs, refinancing institutions.</string>
+</resources>
