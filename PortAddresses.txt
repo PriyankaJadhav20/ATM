@@ -1,0 +1,11 @@
+* Details-Service
+    9092
+
+*Users-Service
+   9090
+
+*Eureka-Service
+   8761
+
+*ApiGateway-Service
+  9094
